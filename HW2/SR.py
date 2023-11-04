@@ -1,3 +1,5 @@
+# Simple reflex agent for vacuum environment
+
 # S/R table for the agent
 s_r_table = {
     ('A', 'Clean'): 'Left',
