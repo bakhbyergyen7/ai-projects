@@ -1,4 +1,4 @@
-% Test the model
+% Test the model given by cognitive_model_addition.m
 int1 = 751235;
 int2 = 758768;
 result = cognitive_model_addition(int1, int2);
