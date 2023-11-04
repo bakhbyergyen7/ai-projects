@@ -1,3 +1,11 @@
+# Toss a coin 32 times and record the outcome (as a string of H and T);
+# Compute the experimentally observed probability of heads over tosses 2 through 21, inclusive (20 outcomes);
+# Compute the Markov chain transition probabilities over the first 21 tosses (viz., the first 20 transitions).
+
+# Computer program that uses the Markov chain model to predict the final ten transitions of each data set 
+# (throws 23-32 given the values of throws 22-31, respectively).  That is, given the previous state (throw i), 
+# compute the next state (throw i+1) using the model, compare with the actual data, and tally the error function (# of wrong guesses).
+
 import random
 
 # Markov chain transition probabilities
