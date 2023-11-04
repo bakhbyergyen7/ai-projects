@@ -1,5 +1,7 @@
 % Simple MATLAB program to pass one piece of the Turing test
 % a simple cognitive model for addition of pairs of integers
+% check test.m to test it on a few examples
+
 function result = cognitive_model_addition(int1, int2)
     % Input processing
     num1 = int32(int1);
